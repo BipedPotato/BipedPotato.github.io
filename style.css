@@ -1,0 +1,10 @@
+h1 {text-align: center;}
+p {text-align: center;}
+div {text-align: center;}
+body
+{
+    margin: 0;
+    background: linear-gradient(-45deg, #02031a, #a64fee);
+    background-size: 100% 1000%;
+    font-size: 25px;
+}
