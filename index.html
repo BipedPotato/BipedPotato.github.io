@@ -5,10 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Biped Potato's Website!</title>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+    />
+
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
-	<script src="index.js"></script>
   <div class="GeneralDiv">
     <h2>Biped Potato</h2>
 
@@ -17,13 +23,28 @@
   </div>
   <div class="YoutubeDiv">
     <h2>My Youtube Channel</h2>
-
+    <div class="youtube-button">
+      <i class = "fab fa-youtube"></i>
+      <p><span class = "sub-count"></span>subscribers</p>
+    </div>
+    <script src = "https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="app.js"></script>
     <p>I run a Youtube channel where I post about my game development progress, and where I discuss topics relating to programming and game dev</p>
     <p>I have a Youtube channel and an Itch.io account where I post both my games and the process of making them!</p>
   </div>
   <div class="GameJamDivs">
     <h2>Game Jams</h2>
-    <p>These are a list of game jams that i made a game for...</p>
-  </div>
+    <p>These are a list of games that i made during game jams often with a time limit of 2 days give or take...</p>
+
+    <div class = "gamejam-div">
+      <h2>GMTK Game Jam 2022</h2>
+      
+      <iframe frameborder="0" src="https://itch.io/embed/1621088?border_width=5&amp;dark=true" width="560" height="175"><a href="https://biped-potato.itch.io/spicyyy">Spicy Dicey Puzzler by Biped Potato</a></iframe>
+      <p>I made this game for the GMTK Game Jam 2022 in under 48 hours with Rust and Bevy.
+        I struggled due to my limited 1 week understanding of Rust and Bevy and had to learn 
+        an entirely new area of Bevy as i had only used 2d prior to this jam
+      </p>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/BSUMMA0lswM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
   </body>
 </html>
