@@ -9,9 +9,10 @@ body
     padding : 0;
     box-sizing : border-box;
     align-items: center;
-    background: linear-gradient(-45deg, #02031a, #a64fee);
+    background: linear-gradient(-45deg, #000000, #393939);
     background-size: 100% 1000%;
     font-size: 25px;
+    color : white;
 }
 .youtube-button
 {
@@ -35,6 +36,7 @@ body
     word-wrap: break-word;
     border-radius: 25px;
     padding:20px;
+    outline: 5px solid white;
     color:#fff;
     background-color:rgb(32, 32, 32);
     display:inline-block;
