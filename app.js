@@ -13,13 +13,13 @@ const getYoutubeSubs = async () =>
     let formattedSub;
     if (ytSubs.length >=4 && ytSubs.length <=6)
     {
-        formattedSub = Math.floor(ytSubs/1000);
+        formattedSub = (ytSubs/1000.0).toFixed(2);
         subCount.innerHTML = `${formattedSub}K`;
         return;
     }
     if (ytSubs.length >=7)
     {
-        formattedSub = Math.floor(ytSubs/1000000);
+        formattedSub = Math.floor(ytSubs/1000000.0);
         subCount.innerHTML = `${formattedSub}M`;
         return;
     }
